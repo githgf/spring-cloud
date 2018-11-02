@@ -1,0 +1,16 @@
+spring:
+  rabbitmq:
+    host: 106.12.212.87
+    username: guest
+    password: guest
+    port: 5672
+management:
+  endpoint:
+    bus-refresh:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
+
+

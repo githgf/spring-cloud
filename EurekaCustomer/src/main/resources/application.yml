@@ -1,0 +1,19 @@
+server:
+  port: 8763
+
+
+spring:
+  application:
+    name: service-customer
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:8761/eureka
+
+#开启Feign Hystrix 支持
+feign:
+  hystrix:
+    enabled: true

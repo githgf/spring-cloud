@@ -1,0 +1,33 @@
+server:
+  port: 8002
+
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      discovery:
+        enabled: true
+      server:
+        git:
+          uri: https://gitee.com/hanscoding/springCloud.git
+          search-paths: /**
+          username: Hans.he
+          password: hgf19950626hgf
+      label: master
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+zuul:
+  routes:
+    service-provide-a:
+      path: /service-provide-a/**
+      serviceId: service-provide-a
+    service-provide-b:
+      path: /service-provide-b/**
+      serviceId: service-provide-b
+
+

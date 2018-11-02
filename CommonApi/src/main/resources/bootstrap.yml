@@ -1,0 +1,16 @@
+#server:
+#  port: 8003
+#
+#spring:
+#  application:
+#    #实例名（显示在注册中心,如果要调用configServer，必须设置为configServer中国git仓库下的文件名 profile之前的名字）
+#    #比如说configServer中git仓库下的有cloud-dev.properties、cloud-prod.properties ,这里就写cloud
+#    #properties的默认名字组成规范为{applicationName}-{profile}.properties
+#    name: cloud
+##config client 的配置是在bootstrap文件中
+#  cloud:
+#    config:
+#      #配置环境和git远程仓库下配置文件的命名有关
+#      profile: dev
+#      uri: http://localhost:8002
+#      #注册中心的url
