@@ -55,8 +55,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/EurekaServer/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="19" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="29" selection-end-column="19" />
+            <state relative-caret-position="272">
+              <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -69,6 +69,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -150,6 +153,7 @@
     <option name="width" value="1346" />
     <option name="height" value="728" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -161,11 +165,6 @@
             <path>
               <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="springCloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="EurekaServer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -350,7 +349,7 @@
       <workItem from="1540990435787" duration="559000" />
       <workItem from="1540991057339" duration="6810000" />
       <workItem from="1541033559659" duration="23767000" />
-      <workItem from="1541117275433" duration="17063000" />
+      <workItem from="1541117275433" duration="17436000" />
     </task>
     <servers />
   </component>
@@ -378,7 +377,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55027000" />
+    <option name="totallyTimeSpent" value="55400000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -411,7 +410,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32921174" />
       <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.51931995" />
-      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.44358578" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32921174" />
       <window_info anchor="bottom" id="Terminal" order="8" />
@@ -875,8 +874,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/EurekaServer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="19" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="29" selection-end-column="19" />
+        <state relative-caret-position="272">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
