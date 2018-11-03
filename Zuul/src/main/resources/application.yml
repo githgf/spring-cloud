@@ -1,0 +1,22 @@
+server:
+  port: 9001
+
+zuul:
+  routes:
+    service-provide-a:
+      path: /service-provide-a/**
+      serviceId: service-provide-a
+    service-provide-b:
+      path: /service-provide-b/**
+      serviceId: service-provide-b
+spring:
+  application:
+    name: getway-a
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:8761/eureka
+

@@ -4,6 +4,9 @@ server:
 eureka:
   instance:
     hostname: localhost
+    instance-id: service-provide
+    #显示ip地址
+    prefer-ip-address: true
   client:
     service-url:
       #注册中心的域名（可以有多个）

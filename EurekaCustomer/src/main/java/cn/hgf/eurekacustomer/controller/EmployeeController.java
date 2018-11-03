@@ -3,6 +3,7 @@ package cn.hgf.eurekacustomer.controller;
 
 import cn.hgf.eurekacustomer.EmployeeCustomerService;
 import cn.hgf.eurekacustomer.entity.Employee;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
@@ -31,6 +32,7 @@ public class EmployeeController {
     EmployeeCustomerService employeeCustomerService;
 
     @GetMapping("/test")
+    @HystrixCommand(fallbackMethod = "hystrixMethod")
     public String test(){
 
         return employeeCustomerService.test();
@@ -39,6 +41,10 @@ public class EmployeeController {
     @GetMapping("/getName")
     public String getName(){
         return employeeCustomerService.getName();
+    }
+
+    public String hystrixMethod(){
+        return "error";
     }
 
 }

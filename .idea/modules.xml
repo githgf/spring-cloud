@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/EurekaCustomer/EurekaCustomer.iml" filepath="$PROJECT_DIR$/EurekaCustomer/EurekaCustomer.iml" />
       <module fileurl="file://$PROJECT_DIR$/EurekaServer/EurekaServer.iml" filepath="$PROJECT_DIR$/EurekaServer/EurekaServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-parent.iml" filepath="$PROJECT_DIR$/springcloud-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zuul/zuul.iml" filepath="$PROJECT_DIR$/Zuul/zuul.iml" />
     </modules>
   </component>
 </project>

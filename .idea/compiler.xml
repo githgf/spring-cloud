@@ -12,6 +12,7 @@
         <module name="EurekaClient" />
         <module name="EurekaCustomer" />
         <module name="EurekaServer" />
+        <module name="zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,6 +22,7 @@
       <module name="EurekaCustomer" target="1.8" />
       <module name="EurekaServer" target="1.8" />
       <module name="springcloud-parent" target="1.8" />
+      <module name="zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

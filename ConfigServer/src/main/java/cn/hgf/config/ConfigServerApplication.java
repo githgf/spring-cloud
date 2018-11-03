@@ -11,7 +11,7 @@ import org.springframework.cloud.netflix.zuul.EnableZuulServer;
 @EnableConfigServer
 @EnableEurekaClient
 //configClient 如何调用在client项目中找ConfigServicePropertySourceLocator.getRemoteEnviroment()
-@EnableZuulProxy
+//@EnableZuulProxy
 public class ConfigServerApplication {
 
 	public static void main(String[] args) {
