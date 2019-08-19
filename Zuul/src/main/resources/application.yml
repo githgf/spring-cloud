@@ -4,11 +4,12 @@ server:
 zuul:
   routes:
     service-provide-a:
-      path: /service-provide-a/**
+      path: /service-a/**
       serviceId: service-provide-a
     service-provide-b:
-      path: /service-provide-b/**
+      path: /service-b/**
       serviceId: service-provide-b
+  prefix: /my
 spring:
   application:
     name: getway-a
